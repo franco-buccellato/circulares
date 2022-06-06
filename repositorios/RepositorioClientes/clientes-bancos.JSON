@@ -1,0 +1,18 @@
+[
+    {
+        "codigoCliente": "0000",
+        "nombre": "BBVA"
+    },
+    {
+        "codigoCliente": "0001",
+        "nombre": "ICBC"
+    },
+    {
+        "codigoCliente": "0002",
+        "nombre": "HSBC"
+    },
+    {
+        "codigoCliente": "0003",
+        "nombre": "GALICIA"
+    }
+]
