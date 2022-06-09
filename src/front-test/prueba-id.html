@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <script>
+            function agregarId(codigo, fecha, link) {
+                console.log('Aprete agregar Id.');
+                console.log(codigo);
+                console.log(fecha);
+                console.log(link);
+                new Id(codigo,fecha, link);
+            }
+        </script>
+        <ul>
+            <li>
+                <label for="codigo-id">codigoId</label>
+            </li>
+            <li>
+                <input type="text" name="codigoId" id="codigo" placeholder="Ingrese el código de Id.">
+            </li>
+            <li>
+                <label for="dueDate">codigoId</label>
+            </li>
+            <li>
+                <input type="date" name="dueDate" id="fecha" placeholder="Ingrese el dueDate.">
+            </li>
+            <li>
+                <label for="link">codigoId</label>
+            </li>
+            <li>
+                <input type="text" name="link" id="link" placeholder="Ingrese el link.">
+            </li>
+            <li>
+                <button onclick="
+                    agregarId(
+                        document.getElementById('codigo').value,
+                        document.getElementById('fecha').value,
+                        document.getElementById('link').value
+                    )
+                ">Agregar Id</button>
+            </li>
+        </ul>
+    </body>
+</html>
